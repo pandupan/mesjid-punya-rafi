@@ -9,7 +9,7 @@ const NamazTimings = () => {
           Namaz Timings
         </h1>
       </div>
-      <div className="lg:w-[363px] bg-[#1DBBB4] place-self-center flex justify-center items-center mt-6">
+      <div className="lg:w-[363px] bg-[#66beee] place-self-center flex justify-center items-center mt-6">
         <h3 className="lg:text-base text-xs">
           Next In: <a className="text-white"> 5 hours 47 minutes 25 seconds </a>
         </h3>
@@ -58,7 +58,7 @@ const NamazTimings = () => {
                 <p className="lg:text-base text-xs font-bold">Iqamah: 8:00 AM</p>
               </div>
             </div>
-            <div className="bg-[#13bbb4] py-4 px-8 lg:py-6 lg:px-10 flex flex-col gap-2">
+            <div className="bg-[#1f538e] py-4 px-8 lg:py-6 lg:px-10 flex flex-col gap-2">
               <h1 className="text-lg lg:text-2xl text-white font-bold">JUMMAH</h1>
               <div>
                 <p className="lg:text-base text-xs text-white font-bold">begins: 12:30 AM</p>

@@ -29,12 +29,12 @@ const HistoryOfCenter = () => {
           <li>Providing Homes</li>
         </ul>
       </div>
-      <button className="bg-[#1DBBB4] w-[154px] h-[43px] rounded-xl mt-2">
+      <button className="bg-[#66beee] w-[154px] h-[43px] rounded-xl mt-2">
       <a className="place-self-center">Learn More</a>
     </button>
     </div>
 
-    <div className="relative border-4 border-[#0C7C95] w-[270px] h-[270px] sm:w-[470px] sm:h-[470px] lg:w-[400px] lg:h-[400px] xl:w-[523px] xl:h-[523px] ">
+    <div className="relative border-4 border-[#3479b2] w-[270px] h-[270px] sm:w-[470px] sm:h-[470px] lg:w-[400px] lg:h-[400px] xl:w-[523px] xl:h-[523px] ">
       <div>
       <div className="absolute -top-4 -left-4 lg:-left-14 lg:-top-8 sm:-top-10 sm:-left-10 z-0">
       <div className="relative aspect-square w-[270px] h-[270px] sm:w-[470px] sm:h-[470px] lg:w-[400px] lg:h-[400px] xl:w-[523px] xl:h-[523px]">

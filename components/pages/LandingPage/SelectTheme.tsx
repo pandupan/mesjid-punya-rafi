@@ -6,7 +6,7 @@ const SelectTheme = () => {
     <section id="theme">
       <div className="relative flex flex-col w-full px-4 sm:px-10 xl:container justify-center items-center my-20">
 
-        <h1 className="text-[#0C7C95] text-4xl md:text-6xl xl:text-7xl font-bold mx-auto px-2">Select a Theme</h1>
+        <h1 className="text-[#3479b2] text-4xl md:text-6xl xl:text-7xl font-bold mx-auto px-2">Select a Theme</h1>
         
         <p className="w-full text-justify sm:text-center mt-4 px-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

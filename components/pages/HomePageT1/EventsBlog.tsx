@@ -5,10 +5,10 @@ import { AiFillClockCircle } from "react-icons/ai";
 
 const EventsBlog = () => {
   return (
-    <div className="px-4 sm:px-10 items-center flex flex-col py-8 bg-[#e7f8f7]">
+    <div className="px-4 sm:px-10 items-center flex flex-col py-8 bg-[#d4e7f2]">
       <div className="flex flex-col items-center gap-2 my-10">
-      <h3 className="text-[#004B48] font-bold text-xs">Events & Blog</h3>
-        <h1 className="text-[#004B48] text-3xl lg:text-6xl font-bold">Our Event & Blog</h1>
+      <h3 className="text-[#1f3e61] font-bold text-xs">Events & Blog</h3>
+        <h1 className="text-[#1f3e61] text-3xl lg:text-6xl font-bold">Our Event & Blog</h1>
       </div>
       <div className="flex xl:flex-row flex-col gap-6 mt-10">
         <div className="flex flex-col gap-6 items-center">
@@ -30,13 +30,13 @@ const EventsBlog = () => {
                 </h1>
                 <div className="flex flex-row gap-10">
                   <div className="flex flex-row gap-2 items-center">
-                    <div className="text-[#13bbb4]">
+                    <div className="text-[#1f538e]">
                       <FaCalendarAlt size={17} />
                     </div>
                     <h3 className="sm:text-base text-xs place-self-center">Jan 6, 2022</h3>
                   </div>
                   <div className="flex flex-row gap-2 items-center">
-                    <div className="text-[#13bbb4]">
+                    <div className="text-[#1f538e]">
                       <FaUser size={17} />
                     </div>
                     <h3 className="sm:text-base text-xs place-self-center">Imam Ullah</h3>
@@ -70,13 +70,13 @@ const EventsBlog = () => {
                 </h1>
                 <div className="flex flex-row gap-10">
                   <div className="flex flex-row gap-2 items-center">
-                    <div className="text-[#13bbb4]">
+                    <div className="text-[#1f538e]">
                       <FaCalendarAlt size={17} />
                     </div>
                     <h3 className="sm:text-base text-xs place-self-center">Jan 8, 2022</h3>
                   </div>
                   <div className="flex flex-row gap-2 items-center">
-                    <div className="text-[#13bbb4]">
+                    <div className="text-[#1f538e]">
                       <FaUser size={17} />
                     </div>
                     <h3 className="sm:text-base text-xs place-self-center">Imam Ullah</h3>
@@ -148,7 +148,7 @@ const EventsBlog = () => {
               </h1>
               <div className="flex flex-row gap-2 sm:gap-6">
                 <div className="flex flex-row gap-1 items-center">
-                  <div className="text-[#13bbb4]">
+                  <div className="text-[#1f538e]">
                     <FaLocationPin size={17} />
                   </div>
                   <h3 className="place-self-center text-xs sm:text-base ">
@@ -156,7 +156,7 @@ const EventsBlog = () => {
                   </h3>
                 </div>
                 <div className="flex flex-row gap-1 items-center">
-                  <div className="text-[#13bbb4]">
+                  <div className="text-[#1f538e]">
                     <AiFillClockCircle size={17} />
                   </div>
                   <h3 className="place-self-center text-xs sm:text-base">Imam Ullah</h3>
@@ -179,7 +179,7 @@ const EventsBlog = () => {
               </h1>
               <div className="flex flex-row gap-2 sm:gap-6">
                 <div className="flex flex-row gap-1 items-center">
-                  <div className="text-[#13bbb4]">
+                  <div className="text-[#1f538e]">
                     <FaLocationPin size={17} />
                   </div>
                   <h3 className="place-self-center text-xs sm:text-base ">
@@ -187,7 +187,7 @@ const EventsBlog = () => {
                   </h3>
                 </div>
                 <div className="flex flex-row gap-1 items-center">
-                  <div className="text-[#13bbb4]">
+                  <div className="text-[#1f538e]">
                     <AiFillClockCircle size={17} />
                   </div>
                   <h3 className="place-self-center text-xs sm:text-base">Imam Ullah</h3>

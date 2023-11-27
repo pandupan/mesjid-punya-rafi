@@ -8,8 +8,8 @@ const OurGallery = () => {
         </div>
       </div>
       <div className="flex flex-col items-center my-10">
-        <h3 className="text-[#004B48] font-bold text-xs">Associated Mosque</h3>
-        <h1 className="text-[#004B48] text-3xl lg:text-6xl font-bold">Our Gallery</h1>
+        <h3 className="text-[#1f3e61] font-bold text-xs">Associated Mosque</h3>
+        <h1 className="text-[#1f3e61] text-3xl lg:text-6xl font-bold">Our Gallery</h1>
       </div>
       <p className="text-center sm:w-[750px] place-self-center sm:text-base text-sm">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -35,7 +35,7 @@ const OurGallery = () => {
         </div>
       </div>
       <div className="mt-10 flex items-center justify-center ">
-        <a href=" " className="bg-[#1DBBB4] sm:w-[154px] w-[120px] h-[30px] sm:h-[43px] justify-center items-center flex rounded-xl mt-2 place-self-center">
+        <a href=" " className="bg-[#66beee] sm:w-[154px] w-[120px] h-[30px] sm:h-[43px] justify-center items-center flex rounded-xl mt-2 place-self-center">
           <p className="place-self-center text-center sm:text-base text-sm">View More</p>
         </a>
       </div>

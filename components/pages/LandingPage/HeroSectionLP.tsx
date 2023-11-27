@@ -15,7 +15,7 @@ const HeroSectionLP = () => {
           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
           voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
-        <button className="bg-[#1DBBB4] w-[154px] h-[48px] rounded-xl mt-4">
+        <button className="bg-[#66beee] w-[154px] h-[48px] rounded-xl mt-4">
           <a className="place-self-center">Read more</a>
         </button>
       </div>

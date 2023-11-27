@@ -80,27 +80,21 @@ html {
 }
 
 .bg-hero {
-  background-image: url("https://i.ibb.co/pfKPTGP/HeroLP.png");
+  background-image: url("https://i.ibb.co/7JwRFM7/hero-hp.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-hero-hp {
-  background-image: url("https://i.ibb.co/2PJRYs8/heroHP.png");
+  background-image: url("https://i.ibb.co/wzDkpzb/News-Letter.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-hero-news {
-  background-image: url("https://i.ibb.co/XfHj2Q8/News-Letter.png");
-  background-position:50% center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .bg-hero-pillars {
-  background-image: url("https://i.ibb.co/hKN31h6/Pillars.png");
+  background-image: url("https://i.ibb.co/xXq9gcD/Pillars.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -6,7 +6,6 @@ import NamazTimings from '@/components/pages/HomePageT1/NamazTimings'
 import OurGallery from '@/components/pages/HomePageT1/OurGallery'
 import PillarsOfIslam from '@/components/pages/HomePageT1/PillarsOfIslam'
 import React from 'react'
-import NewsLetter from '@/components/pages/HomePageT1/NewsLetter'
 
 const page = () => {
   return (
@@ -18,7 +17,6 @@ const page = () => {
       <OurGallery/>
       <EventsBlog/>
       <ContactUsHome/>
-      <NewsLetter/>
     </>
   )
 }

@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import Footer from '@/components/layouts/Footer'
+import ProviderWrapper from '@/components/layouts/ProviderWrapper'
 
 const popinsPoppins = Poppins({ subsets: ['latin'], weight: ['100','200', '300', '400', '500', '600', '700', '800', '900'] })
 
@@ -20,9 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={popinsPoppins.className}>
         <div className="overflow-hidden">
-          <Navbar/>
-            {children}
-          <Footer/>
+          <ProviderWrapper>
+              <Navbar/>
+                {children}
+              <Footer/>
+          </ProviderWrapper>
         </div>
       </body>
     </html>

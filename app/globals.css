@@ -80,32 +80,26 @@ html {
 }
 
 .bg-hero {
-  background-image: url("https://i.ibb.co/7JwRFM7/hero-hp.png");
+  background-image: url("https://i.ibb.co/B4C1hFv/heroLP.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-hero-hp {
-  background-image: url("https://i.ibb.co/wzDkpzb/News-Letter.png");
+  background-image: url("https://i.ibb.co/9ZWpdft/HeroHP.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-hero-pillars {
-  background-image: url("https://i.ibb.co/xXq9gcD/Pillars.png");
+  background-image: url("https://i.ibb.co/QFKwHX2/Pillars.png");
   background-position:50% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-namaz {
-  background-image: url("https://i.ibb.co/7gTr1DW/namaz-timings.png");
-  background-position:50% center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* Jika Anda ingin memastikan gambar tampilan mobile, Anda bisa menambahkan media query seperti ini: */
 @media (max-width: 640px) {

@@ -31,13 +31,6 @@ const ContactUsHome = () => {
             <Input type="email" placeholder="Email address" />
             <Input type="title" placeholder="Title/Subject" />
             <Textarea placeholder="Write your message.." />
-            <div className="relative flex w-[270px] h-[70px]">
-              <Image
-                src="/images/captcha.png"
-                alt="captcha"
-                fill={true}
-              />
-            </div>
             <Button title="Send"/>
           </div>
 

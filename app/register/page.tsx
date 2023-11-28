@@ -38,70 +38,72 @@ const RegisterPage = () => {
   }
 
   return (
-    <div className="mt-20 flex flex-row justify-center "> 
+    <div className="lg:mt-20 mt-40 flex flex-col justify-center items-center"> 
 
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col px-20">
-          <h1 className="text-4xl font-bold mb-10 text-center">Register</h1>
+          <h1 className="text-4xl font-bold mb-10 text-center">Daftar Akun</h1>
           {error && <p className="text-red-500">{error}</p>}
 
           {/* Input Nama */}
-          <div className="flex flex-col gap-2">
-            <h3 className="font-semibold text-xl">Nama</h3>
-            <input
-              className="p-2 border-2 border-[#4bb6be] rounded "
-              type="text"
-              id="fullname"
-              name="fullname"
-              placeholder="Masukkan Nama Anda"
-              required
-            />
-          </div>
-          
-          {/* Input Email */}
-          <div className="flex flex-col gap-2 mt-4">
-            <h3 className="font-semibold text-xl">Email</h3>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              className="p-2 border-2 border-[#4bb6be] rounded "
-              placeholder="Masukkan Email Anda"
-            />
-          </div>
+          <div className='w-[250px] sm:w-auto'>
+            <div className="flex flex-col gap-2">
+              <h3 className="font-semibold text-xl">Nama</h3>
+              <input
+                className="p-2 border-2 border-[#66beef] rounded "
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Masukkan Nama Anda"
+                required
+              />
+            </div>
+            
+            {/* Input Email */}
+            <div className="flex flex-col gap-2 mt-4">
+              <h3 className="font-semibold text-xl">Email</h3>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                className="p-2 border-2 border-[#66beef] rounded "
+                placeholder="Masukkan Email Anda"
+              />
+            </div>
 
-          {/* Input Password */}
-          <div className="flex flex-col gap-2 mt-4">
-            <h3 className="font-semibold text-xl">Password</h3>
-            <input
-              id="password"
-              name="password"
-              type="password"
-              required
-              className="p-2 border-2 border-[#4bb6be] rounded "
-              placeholder="Masukkan Password Anda"
-            />
-          </div>
-          <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
-            <div className="flex justify-center">
-              <button 
-                type="submit"
-                className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10"
-                disabled={isLoading}
-              >
-                {isLoading ? "Loading..." : "Register"}
-              </button>
+            {/* Input Password */}
+            <div className="flex flex-col gap-2 mt-4">
+              <h3 className="font-semibold text-xl">Password</h3>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                required
+                className="p-2 border-2 border-[#66beef] rounded "
+                placeholder="Masukkan Password Anda"
+              />
+            </div>
+            <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
+              <div className="flex justify-center">
+                <button 
+                  type="submit"
+                  className="bg-[#66beef] text-center text-white p-2 py-2 px-10"
+                  disabled={isLoading}
+                >
+                  {isLoading ? "Loading..." : "Register"}
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </form>
-      <div className="flex flex-col gap-2 mt-4  py-4">
+      <div className="flex flex-col gap-2 mt-4  py-4 items-center justify-center">
         <p className="justify-center text-center items-center ">
           Sudah Punya Akun?
         </p>
         <Link href="/login">
-          <button className="text-[#4bb6be] hover:underline">
+          <button className="text-[#66beef] hover:underline">
             Masuk
           </button>
         </Link>

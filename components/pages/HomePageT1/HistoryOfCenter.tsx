@@ -46,14 +46,6 @@ const HistoryOfCenter = () => {
     </div>
       </div>
     </div>
-    <div className="absolute -bottom-40 -left-8 z-0">
-      <div className="relative aspect-square w-[270px] h-[610px]">
-        <Image 
-          src="/images/bg-vector-3-3.png" 
-          alt="bg-vector" 
-          fill={true} />
-      </div>
-    </div>
   </div>
   )
 }

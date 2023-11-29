@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className="flex items-center gap-12">
           <div className="flex gap-6 text-lg">
             <Link href="/home">Home</Link>
-            <Link href="/#theme">Themes</Link>
+            <Link href="/#cekbrand">Cek Brand</Link>
             <Link href="/#about">About Us</Link>
             <Link href="/#contact">Contact</Link>
           </div>
@@ -116,7 +116,7 @@ const Navbar = () => {
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-5 text-lg my-6 px-1" onClick={() => setNav(!nav)}>
             <li><Link href="/home">Home</Link></li>
-            <li><Link href="/#theme">Theme</Link></li>
+            <li><Link href="/#cekbrand">Cek Brand</Link></li>
             <li><Link href="/#about">About</Link></li>
             <li><Link href="/#contact">Contact</Link></li>
           </ul>

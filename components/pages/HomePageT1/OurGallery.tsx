@@ -2,11 +2,6 @@ import Image from "next/image";
 const OurGallery = () => {
   return (
     <div className="relative px-4 sm:px-10 xl:container flex flex-col py-8 overflow-hidden ">
-      <div className="absolute -top-80 -right-8 z-0">
-        <div className="relative aspect-square w-[310px] h-[670px]">
-          <Image src="/images/bg-vector-3-4.png" alt="bg-vector" fill={true} />
-        </div>
-      </div>
       <div className="flex flex-col items-center my-10">
         <h3 className="text-[#1f3e61] font-bold text-xs">Associated Mosque</h3>
         <h1 className="text-[#1f3e61] text-3xl lg:text-6xl font-bold">Our Gallery</h1>

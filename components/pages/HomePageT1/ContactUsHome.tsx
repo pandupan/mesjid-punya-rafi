@@ -8,16 +8,6 @@ const ContactUsHome = () => {
       <section id="contact">
         <div className="relative bg-[#d4e7f2] h-auto w-full py-10 flex flex-col lg:flex-row px-4 sm:px-10  justify-center items-center gap-12">
 
-          <div className="absolute -bottom-80 right-0 z-0">
-            <div className="relative aspect-square w-[280px] h-[740px]">
-              <Image
-                src="/images/bg-vector-3-5.png"
-                alt="bg-vector"
-                fill={true}
-              />
-            </div>
-          </div>
-
           <div className="relative border-4 border-[#3479b2] w-[295px] h-[277px] sm:w-[395px] sm:h-[377px] lg:w-[595px] lg:h-[477px] mt-16">
             <div className="absolute -top-5 sm:-top-10 -left-5 sm:-left-10 z-0">
               <div className="relative aspect-square  w-[295px] h-[277px] sm:w-[395px] sm:h-[377px] lg:w-[595px] lg:h-[477px]">

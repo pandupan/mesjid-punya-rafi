@@ -43,7 +43,7 @@ const Page = () => {
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-xl">Email</h3>
               <input
-                className="p-2 border-2 border-[#66beef] rounded "
+                className="p-2 border-2 border-[#3fd592] rounded "
                 type="email"
                 id="email" 
                 name="email"
@@ -53,7 +53,7 @@ const Page = () => {
             <div className="flex flex-col gap-2 mt-4">
               <h3 className="font-semibold text-xl">Password</h3>
               <input
-                className="p-2 border-2 border-[#66beef] rounded "
+                className="p-2 border-2 border-[#3fd592] rounded "
                 type="password" 
                 id="password" 
                 name="password"
@@ -63,7 +63,7 @@ const Page = () => {
             <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
               <div className="flex justify-center">
                 <button 
-                  className="bg-[#66beef] text-center text-white p-2 py-2 px-10"
+                  className="bg-[#3fd592] text-center text-white p-2 py-2 px-10"
                   type='submit'
                   disabled={isLoading}
                 >
@@ -74,7 +74,7 @@ const Page = () => {
           </div>
         </form>
         <div className="flex flex-col gap-2 mt-4 border-b border-black py-4">
-          <button className="text-[#66beef] hover:underline">
+          <button className="text-[#3fd592] hover:underline">
             Lupa Password?
           </button>
         </div>
@@ -82,7 +82,7 @@ const Page = () => {
           <p className="justify-center text-center items-center ">
             Belum Punya Akun ?
           </p>
-          <a href="/register" className="text-[#66beef] text-center hover:underline">
+          <a href="/register" className="text-[#3fd592] text-center hover:underline">
             Daftar Akun
           </a>
         </div>

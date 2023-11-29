@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="relative w-[90px] h-[90px]">
           <Link href="/">
             <Image 
-              src="/images/logo.jpeg"
+              src="/images/LogoSemangka.jpeg"
               alt="logo"
               fill={true}
             />
@@ -93,7 +93,7 @@ const Navbar = () => {
           <div className="relative w-[60px] h-[60px]">
             <Link href="/">
               <Image 
-                src="/images/logo.jpeg"
+                src="/images/LogoSemangka.jpeg"
                 alt="logo"
                 fill={true}
               />

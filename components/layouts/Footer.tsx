@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="relative w-[90px] h-[90px] my-4 lg:my-0">
         <Link href="/">
           <Image 
-            src="/images/logo.jpeg"
+            src="/images/LogoSemangka.jpeg"
             alt="logo"
             fill={true}
           />

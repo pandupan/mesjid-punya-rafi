@@ -4,7 +4,7 @@ const AboutUs = () => {
     <section id="about">
       <div className="relative flex px-4 sm:px-10 xl:container flex-col-reverse lg:flex-row-reverse justify-center items-center gap-12 pt-16 pb-24">
         <div className="flex flex-col gap-6 sm:gap-4 bg-white z-[1] px-2 sm:px-0">
-          <h1 className="text-[#3479b2] text-4xl md:text-6xl xl:text-7xl font-bold">
+          <h1 className="text-[#29895e] text-4xl md:text-6xl xl:text-7xl font-bold">
             Tentang Kami
           </h1>
           <div className="flex flex-col gap-4 ">
@@ -28,7 +28,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="relative border-4 border-[#3479b2] w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px] bg-white z-[1]">
+        <div className="relative border-4 border-[#29895e] w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px] bg-white z-[1]">
           <div>
             <div className="absolute -top-5 sm:-top-10 -left-5 sm:-left-10 z-0">
               <div className="relative aspect-square w-[250px] h-[230px] sm:w-[395px] sm:h-[377px] xl:w-[595px] xl:h-[477px]">

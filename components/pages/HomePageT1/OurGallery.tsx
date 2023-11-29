@@ -30,7 +30,7 @@ const OurGallery = () => {
         </div>
       </div>
       <div className="mt-10 flex items-center justify-center ">
-        <a href=" " className="bg-[#66beee] sm:w-[154px] w-[120px] h-[30px] sm:h-[43px] justify-center items-center flex rounded-xl mt-2 place-self-center">
+        <a href=" " className="bg-[#34af78] sm:w-[154px] w-[120px] h-[30px] sm:h-[43px] justify-center items-center flex rounded-xl mt-2 place-self-center">
           <p className="place-self-center text-center sm:text-base text-sm">View More</p>
         </a>
       </div>

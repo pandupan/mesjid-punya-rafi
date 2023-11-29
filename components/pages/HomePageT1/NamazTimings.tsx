@@ -9,7 +9,7 @@ const NamazTimings = () => {
           Namaz Timings
         </h1>
       </div>
-      <div className="lg:w-[363px] bg-[#66beee] place-self-center flex justify-center items-center mt-6">
+      <div className="lg:w-[363px] bg-[#34af78] place-self-center flex justify-center items-center mt-6">
         <h3 className="lg:text-base text-xs">
           Next In: <a className="text-white"> 5 hours 47 minutes 25 seconds </a>
         </h3>

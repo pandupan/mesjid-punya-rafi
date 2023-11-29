@@ -50,7 +50,7 @@ const RegisterPage = () => {
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-xl">Nama</h3>
               <input
-                className="p-2 border-2 border-[#66beef] rounded "
+                className="p-2 border-2 border-[#3fd592] rounded "
                 type="text"
                 id="fullname"
                 name="fullname"
@@ -67,7 +67,7 @@ const RegisterPage = () => {
                 name="email"
                 id="email"
                 required
-                className="p-2 border-2 border-[#66beef] rounded "
+                className="p-2 border-2 border-[#3fd592] rounded "
                 placeholder="Masukkan Email Anda"
               />
             </div>
@@ -80,7 +80,7 @@ const RegisterPage = () => {
                 name="password"
                 type="password"
                 required
-                className="p-2 border-2 border-[#66beef] rounded "
+                className="p-2 border-2 border-[#3fd592] rounded "
                 placeholder="Masukkan Password Anda"
               />
             </div>
@@ -88,7 +88,7 @@ const RegisterPage = () => {
               <div className="flex justify-center">
                 <button 
                   type="submit"
-                  className="bg-[#66beef] text-center text-white p-2 py-2 px-10"
+                  className="bg-[#3fd592] text-center text-white p-2 py-2 px-10"
                   disabled={isLoading}
                 >
                   {isLoading ? "Loading..." : "Register"}
@@ -103,7 +103,7 @@ const RegisterPage = () => {
           Sudah Punya Akun?
         </p>
         <Link href="/login">
-          <button className="text-[#66beef] hover:underline">
+          <button className="text-[#3fd592] hover:underline">
             Masuk
           </button>
         </Link>

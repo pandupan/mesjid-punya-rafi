@@ -7,7 +7,7 @@ const ReceiveNews = () => {
         <div className="flex justify-center items-center w-[80%] h-full bg-white text-gray-500 rounded-l-full text-base sm:text-lg xl:text-xl">
           Enter Email
         </div>
-        <div className="w-[20%] h-full bg-[#3479b2] rounded-r-full text-white flex justify-center items-center text-base sm:text-lg xl:text-xl">
+        <div className="w-[20%] h-full bg-[#29895e] rounded-r-full text-white flex justify-center items-center text-base sm:text-lg xl:text-xl">
           Go
         </div>
       </div>

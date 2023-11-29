@@ -17,7 +17,7 @@ const HeroSectionLP = () => {
           <a
             href="/#cekbrand"
             title="cekbrand"
-            className="bg-[#66beee] px-10 py-4 rounded-xl mt-4 text-center"
+            className="bg-[#34af78] px-10 py-4 rounded-xl mt-4 text-center"
           >
             Cek Brand
           </a>

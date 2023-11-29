@@ -5,7 +5,7 @@ const SelectTheme = () => {
   return (
     <section id="cekbrand">
       <div className="relative flex flex-col w-full px-4 sm:px-10 xl:container justify-center items-center my-40">
-        <h1 className="text-[#3479b2] text-4xl md:text-6xl xl:text-7xl font-bold mx-auto px-2">
+        <h1 className="text-[#29895e] text-4xl md:text-6xl xl:text-7xl font-bold mx-auto px-2">
           CEK BRAND
         </h1>
 
@@ -16,7 +16,7 @@ const SelectTheme = () => {
           Palestina.
         </p>
         <input
-                className="p-4 mt-4 border-2 border-[#66beef] rounded-full w-[200px] sm:w-[400px] lg:w-[700px]"
+                className="p-4 mt-4 border-2 border-[#3fd592] rounded-full w-[200px] sm:w-[400px] lg:w-[700px]"
                 type="cek"
                 id="cek" 
                 name="cek"

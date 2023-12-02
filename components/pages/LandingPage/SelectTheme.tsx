@@ -128,8 +128,8 @@ const SelectTheme: React.FC = () => {
                                     {suggestion}
                                   </span>
                                   <span>
-                                    &nbsp; yang anda pilih terafiliasi dengan
-                                    israel, diharapkan anda menghidari produk
+                                    &nbsp; yang anda pilih
+                                    <span className="text-red-500">&nbsp;terafiliasi dengan Israel&nbsp;</span>, diharapkan anda menghidari produk
                                     tersebut.
                                   </span>
                                 </>

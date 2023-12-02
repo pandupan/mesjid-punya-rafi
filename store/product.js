@@ -72,7 +72,6 @@ const produk = [
     "Milo",
     "M&Ms",
     "Cornflakes",
-    "Sariwangi",
     "Lipton",
     "Nestea",
     "Royco",
@@ -157,7 +156,8 @@ const produk = [
     "Vixal",
     "Wall’s",
     "Wipol",
-    "Zwitsal"
+    "Zwitsal",
+    "CAT"
 ];
 
 export const products = [...new Set(produk)];

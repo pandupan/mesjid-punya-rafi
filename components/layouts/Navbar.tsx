@@ -25,33 +25,7 @@ const Navbar = () => {
 
   return (
     <> 
-      {/* Top Nav Remider */}
-      {topNavRemider.includes(pathname) && (
-        <div className="hidden lg:flex flex-col justify-center items-end w-full h-full container mt-4 -mb-6">
-          <div className="items-center  justify-between flex w-[730px] h-[50px]">
-            <div className="flex gap-2">
-              <FaSun size={20} className="text-theme"/>
-              <p>Sunrise At : <span className="text-theme">6:10 AM</span></p>
-            </div>
-            <div className="flex gap-2">
-              <RiMoonFill size={20} className="text-theme"/>
-              <p>Sunset At : <span className="text-theme">3:55 PM</span></p>
-            </div>
-            <div className="flex items-center gap-4">
-              <FaFacebookF size={20}/>
-              <FaTwitter size={20}/>
-              <FaInstagram size={20}/>
-              <FaYoutube size={20}/>
-              <FaLinkedinIn size={20}/>
-              <FaGooglePlusG size={23}/>
-            </div>
-
-          </div>
-          <div className="bg-gray-900 w-[730px] h-[2px] my-1"/>
-        </div>
-      )}
-      {/* End Top Nav Remider */}
-
+     
       {/* Navbar Desktop*/}  
       <div className="hidden lg:flex justify-between items-center w-full h-[125px] container">
         <div className="relative w-[90px] h-[90px]">
@@ -65,7 +39,6 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-12">
           <div className="flex gap-6 text-lg">
-            <Link href="/home">Home</Link>
             <Link href="/#cekbrand">Cek Brand</Link>
             <Link href="/#about">About Us</Link>
             <Link href="/#contact">Contact</Link>
@@ -115,7 +88,6 @@ const Navbar = () => {
       }>
         <div className="w-full h-full px-[25px]">
           <ul className="space-y-5 text-lg my-6 px-1" onClick={() => setNav(!nav)}>
-            <li><Link href="/home">Home</Link></li>
             <li><Link href="/#cekbrand">Cek Brand</Link></li>
             <li><Link href="/#about">About</Link></li>
             <li><Link href="/#contact">Contact</Link></li>

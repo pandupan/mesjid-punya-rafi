@@ -137,7 +137,7 @@ const SelectTheme: React.FC = () => {
                             </>
                           ) : (
                             <span>
-                              Produk ini tidak ditemukan, ingin memberi kami
+                              ini tidak ditemukan, ingin memberi kami
                               masukan?
                             </span>
                           )}

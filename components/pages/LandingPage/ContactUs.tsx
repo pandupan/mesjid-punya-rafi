@@ -20,10 +20,10 @@ const ContactUs = () => {
         </div>
 
         <div className="flex flex-col gap-5 space-y-1">
-          <h1 className="text-[#29895e] text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-bold">Contact Us</h1>
-          <Input type="email" placeholder="Email address" />
+          <h1 className="text-[#29895e] text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-bold">Kontak Kami</h1>
+          <Input type="email" placeholder="Alamat Email" />
           <Input type="title" placeholder="Title/Subject" />
-          <Textarea placeholder="Write your message.." />
+          <Textarea placeholder="Masukan Pesan" />
           <Button title="Send"/>
         </div>
 
